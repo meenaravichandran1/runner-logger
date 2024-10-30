@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"github.com/harness/runner/delegateshell/client"
 	"github.com/patrickmn/go-cache"
+	"github/meenaravichandran1/runner-logger/logger"
 	"golang.org/x/oauth2"
-	"runner-logger/logger"
 	"time"
 )
 
