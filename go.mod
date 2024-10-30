@@ -1,10 +1,11 @@
-module runner-logger
+module github/meenaravichandran1/runner-logger
 
 go 1.22.5
 
 require (
 	cloud.google.com/go/logging v1.12.0
 	github.com/harness/runner v0.0.0-00010101000000-000000000000
+	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/sirupsen/logrus v1.9.3
 	golang.org/x/oauth2 v0.23.0
 	google.golang.org/api v0.203.0
@@ -28,7 +29,6 @@ require (
 	github.com/googleapis/enterprise-certificate-proxy v0.3.4 // indirect
 	github.com/googleapis/gax-go/v2 v2.13.0 // indirect
 	github.com/kelseyhightower/envconfig v1.4.0 // indirect
-	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.54.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.54.0 // indirect
