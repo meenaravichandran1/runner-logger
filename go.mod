@@ -1,4 +1,4 @@
-module github/meenaravichandran1/runner-logger
+module github.com/meenaravichandran1/runner-logger
 
 go 1.22.5
 
